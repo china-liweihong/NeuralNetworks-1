@@ -67,7 +67,7 @@ public class Convolutional {
 		arr[4] = "data/data_batch_5.mat";
 		arr[5] = "data/test_batch.mat";
 
-		cn.numImages = 10000;
+		cn.numImages = 20000;
 		cn.colImages = new DoubleMatrix[cn.numImages][channels[0]];
 		cn.Labels = DoubleMatrix.zeros(cn.numImages, 1);
 		System.out.println(cn.numImages/10000 );
